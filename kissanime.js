@@ -1,4 +1,4 @@
-var URL = window.location.origin
+var URL = window.location.origin;
 
 var episodeLinks = $('table.listing a').map(function(i,el) { return $(el).attr('href'); });
 
